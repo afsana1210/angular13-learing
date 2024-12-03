@@ -1,0 +1,18 @@
+<div class="form">
+    <h2 id="Registration">Registration form</h2>
+    <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" ngModel><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" ngModel><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" ngModel><br>
+        <label for="country">country:</label><br>
+        <select id="country" name="country" ngModel>
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+        </select><br>
+        <input type="submit" value="submit">
+        
+      </form>
+</div>

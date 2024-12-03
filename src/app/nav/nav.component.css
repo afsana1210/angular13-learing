@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    background-color: #F5B041;
+    
+}
+.site-name{
+    padding: 5px 30px;
+    color:aliceblue
+}
+.site-menu{
+    display: flex;
+    padding: 5px 10px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #212F3D;
+    margin: 0px 10px;
+}
